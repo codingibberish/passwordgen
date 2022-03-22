@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+
+body {
+    background: #1F2937;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+h1 {
+    display: flex;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 50px;
+    color: white;
+    font-weight: 800;
+    margin: 0;
+}
+
+#subheading {
+    font-family: Inter;
+    color:#D5D4D8;
+    font-size: 20px;
+}
+
+#greentitle {
+    color: #10B981;
+}
+
+#gen-btn {
+    background-color: #10B981;
+    width: 223px;
+    height: 42px;
+    color: white;
+    font-family: Inter;
+    font-size: 16px;
+    border: none;
+    border-radius: 2px;
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    padding-top: 150px;
+    
+}
+
+hr {
+    color: #2F3E53;
+    width: 446px;
+    margin-top: 40px;
+}
+
+.passwords {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+#right1, #right2 {
+    margin-left: 10px;
+}
+
+#left1, #left2 {
+    margin-right: 10px;
+}
+
+.passwords button {
+    width: 211px;
+    height: 39px;
+    background-color: #273549;
+    border: none;
+    border-radius: 2px;
+    color: #55F991;
+    font-size: 16px;
+    font-family: Inter;
+    font-weight: bold;
+
+}
